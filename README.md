@@ -35,5 +35,6 @@ encoding of data for communication for  on/off particular Equipment:
 - This device works between 5.09 Volt and 5.21 Volt
 - And consume power between  0.07A and 0.30A
 
-
+### FlowChart of Project:
+![](https://raw.githubusercontent.com/fenil29/home-automation-system-android-application/master/images/flowchart.png)
 
