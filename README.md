@@ -1,5 +1,5 @@
 # home-automation-system-android-application
-**Note:** this is a repository of Android Applicaiton.the repository of Arduino Uno code can be found ** [Here](https://github.com/pandao/editor.md "Heading link")**
+**Note:** this is a repository of Android Applicaiton.the repository of Arduino Uno code can be found **  [Here](https://github.com/pandao/editor.md "Heading link") **
 
 #### Download Link of Android Applicaion Apk : [Download](https://drive.google.com/open?id=1wi6MTrVnU-XF1ut4-D9Cst1A7HgzBJEd)
 
@@ -18,7 +18,7 @@ home automation system android application
 encoding of data for communication for  on/off particular Equipment:
 ![](https://raw.githubusercontent.com/fenil29/home-automation-system-android-application/master/images/message_encoding.jpg)
 
-##Screenshorts of Application
+## Screenshorts of Application
 ![](https://raw.githubusercontent.com/fenil29/home-automation-system-android-application/master/images/ss1.png)    ![](https://raw.githubusercontent.com/fenil29/home-automation-system-android-application/master/images/ss2.png)
 
 
