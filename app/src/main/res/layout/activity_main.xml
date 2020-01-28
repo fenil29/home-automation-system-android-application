@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="411dp"
+        android:layout_height="20dp"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Status" />
+
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="127dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buttonoff"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/b3"
+        app:layout_constraintEnd_toStartOf="@+id/b2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusText" />
+
+    <ImageButton
+        android:id="@+id/b3"
+        android:layout_width="127dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buttonoff"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="@+id/b4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+    <ImageButton
+        android:id="@+id/b2"
+        android:layout_width="124dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buttonoff"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/b4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b1"
+        app:layout_constraintTop_toBottomOf="@+id/statusText"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <ImageButton
+        android:id="@+id/b4"
+        android:layout_width="127dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/buttonoff"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b3"
+        app:layout_constraintTop_toBottomOf="@+id/b2" />
+
+    <RadioGroup
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b3">
+
+        <RadioButton
+            android:id="@+id/checkBox1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimary"
+
+            android:text="1"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <RadioButton
+            android:id="@+id/checkBox2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="@color/colorPrimary"
+            android:text="2"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <RadioButton
+            android:id="@+id/checkBox3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="@color/colorPrimary"
+            android:text="3"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="231dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <RadioButton
+            android:id="@+id/checkBox4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="@color/colorPrimary"
+            android:text="4"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="305dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+        <RadioButton
+            android:id="@+id/checkBoxAll"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimary"
+
+            android:text="All"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <RadioButton
+            android:id="@+id/radioButtonOff"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Off"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOn"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="@color/colorPrimary"
+            android:text="On"
+            android:textColor="@color/colorPrimary" />
+
+        <RadioButton
+            android:id="@+id/radioButtonReset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="@color/colorPrimary"
+            android:text="Reset"
+            android:textColor="@color/colorPrimary" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1">
+
+        <RadioButton
+            android:id="@+id/radioButtonOnTime"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:text="On Time"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTimer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Timer"
+            android:textColor="@color/colorPrimary" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3">
+
+        <EditText
+            android:id="@+id/editTextHour"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:ems="10"
+            android:hint="Hour"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="423dp" />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/editTextMinute"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:buttonTint="@color/colorPrimary"
+            android:ems="10"
+            android:hint="Minute"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="430dp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="325dp"
+            tools:layout_editor_absoluteY="430dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonAm"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:checked="true"
+                android:text="AM"
+                android:textColor="@color/colorPrimary"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="449dp" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPm"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:text="PM"
+                android:textColor="@color/colorPrimary"
+                tools:layout_editor_absoluteX="200dp"
+                tools:layout_editor_absoluteY="449dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonSet"
+        android:layout_width="98dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/buttonset" />
+
+
+</android.support.constraint.ConstraintLayout>
