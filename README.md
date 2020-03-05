@@ -1,5 +1,5 @@
 # home-automation-system-android-application
-**Note:** this is a repository of Android Applicaiton.the repository of Arduino Uno code can be found   [Here](https://github.com/fenil29/home-automation-system-arduino) 
+**Note:** this is a repository of Android Applicaiton.the repository of Arduino Uno code can be found here: https://github.com/fenil29/home-automation-system-arduino
 
 #### Download Link of Android Applicaion Apk : [Download](https://drive.google.com/open?id=1wi6MTrVnU-XF1ut4-D9Cst1A7HgzBJEd)
 
